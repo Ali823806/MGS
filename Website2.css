@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding: 15px;
+    padding-top: 15px;
+    float: right;
+    font-size: small;
+    text-align: right;
+}
+li{
+
+    display: inline-block;
+    font-size: large;
+    border:1px solid black ;
+    text-align: right;
+}
+#A{
+    margin: 0 auto;
+    font-size: large;
+    text-align: center;
+}
+#nheader{
+    color:white ;
+    background-color: black;
+    padding: 25px ;
+}
+#nparagraph{
+  height: 2000px;
+}
+.text_para{
+    font-size: x-large;
+}
+#footer{
+    color: white;
+    background-color: black;
+    padding: 15px;
+}

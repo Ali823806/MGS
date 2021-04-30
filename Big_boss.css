@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto" , sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+                     url("metal-gear-solid-5-4k-cd-1400x900.jpg");
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+} 
+.container{
+    max-width: 1900px;
+}
+header{
+    width: auto;
+    overflow: auto;
+    margin-top:2% ;
+}
+.logo{
+    float: left;
+}
+.logo h2{
+    color: white;
+    margin-left: 20px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    width: auto;
+    overflow: auto;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 15px;
+}
+nav ul li :hover{
+    border:1px solid white;
+    padding: 5px 15px;
+}
+nav ul .active{
+    border:1px solid white ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px; 
+}
+.text{
+    margin-top: 18%;
+}
+.text h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.buttons{
+    margin-left:44%;
+    margin-top: 20px;
+}
+button{
+    width: 120px;
+    height: 40px;
+    border: 1px solid white;
+   margin-right: 5px ;
+}
+button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-1{
+   background:#0984e3 ; 
+   border: 1px solid #0984e3;
+   color: white;
+}
+.btn-1 a{
+color: white;
+}
+.btn-2:hover{
+    background:rgb(255, 0, 0) ; 
+    border: 1px solid #0984e3;
+}
